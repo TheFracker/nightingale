@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: a12f9b1d4ae544048aa52fb452f6529c
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: frame08servants_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1121
+        width: 383
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08servants_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1121
+        width: 312
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08servants_2
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1309
+        width: 196
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08servants_3
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1248
+        width: 258
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08servants_4
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1187
+        width: 317
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08servants_5
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1248
+        width: 237
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08servants_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 613
+        width: 453
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08servants_7
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 938
+        width: 209
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08servants_8
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 995
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08servants_9
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 645
+        width: 288
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08servants_10
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 483
+        width: 317
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08servants_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 263
+        width: 241
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 94bb66d455ba7524db0bc89b983c12ff
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: frame07servants_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1183
+        width: 272
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1187
+        width: 272
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_2
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1184
+        width: 273
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1183
+        width: 273
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_4
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1187
+        width: 224
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_5
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1187
+        width: 201
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_6
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1187
+        width: 272
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 888
+        width: 221
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_8
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 888
+        width: 221
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_9
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 888
+        width: 205
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_10
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 888
+        width: 185
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 888
+        width: 225
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_12
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 888
+        width: 277
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_13
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 888
+        width: 184
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_14
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 888
+        width: 172
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_15
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 896
+        width: 184
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 658
+        width: 173
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 658
+        width: 149
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_18
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 658
+        width: 152
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_19
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 658
+        width: 149
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_20
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 658
+        width: 148
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_21
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 658
+        width: 149
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_22
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 668
+        width: 135
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_23
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 673
+        width: 152
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 466
+        width: 140
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame07servants_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 24
+        width: 322
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 3491757f8b83b1f48a9d0f7aff686c6b
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: frame09elements3_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1329
+        width: 125
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1298
+        width: 240
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_2
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1335
+        width: 211
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_5
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1411
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_6
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1387
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: frame09elements3_8
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1398
+        width: 80
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: frame09elements3_9
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1088
+        width: 168
+        height: 148
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: frame09elements3_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1132
+        width: 95
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_11
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1075
+        width: 181
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_12
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1138
+        width: 295
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_13
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1139
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_14
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 752
+        width: 268
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_15
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 664
+        width: 432
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_16
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 912
+        width: 112
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 23
+        width: 440
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_18
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 120
+        width: 420
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements3_19
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 276
+        width: 280
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

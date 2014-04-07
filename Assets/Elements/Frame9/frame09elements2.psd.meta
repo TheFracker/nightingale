@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 2bec3dc9ceff5d543b23a4a6ce68fa25
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: frame09elements2_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1115
+        width: 388
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_1
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1127
+        width: 356
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_2
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1398
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_3
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 1424
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_4
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1259
+        width: 102
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_5
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1203
+        width: 126
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_6
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1259
+        width: 118
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_7
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1256
+        width: 132
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: frame09elements2_8
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1101
+        width: 58
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: frame09elements2_10
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1065
+        width: 50
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_11
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 481
+        width: 200
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_12
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 1068
+        width: 40
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 544
+        width: 340
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_14
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 592
+        width: 413
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_15
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 936
+        width: 171
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_16
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 59
+        width: 296
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_17
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 476
+        width: 197
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_18
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 468
+        width: 127
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_19
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 56
+        width: 228
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 59
+        width: 279
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_21
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 106
+        width: 260
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame09elements2_22
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 70
+        width: 332
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

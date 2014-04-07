@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: 22cdd4c26fc2b314a9295c32552c257b
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: frame08nodes_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 428
+        width: 296
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08nodes_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 639
+        width: 105
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08nodes_2
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 428
+        width: 313
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08nodes_3
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 315
+        width: 161
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08nodes_4
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 220
+        width: 132
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08nodes_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 67
+        width: 153
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08nodes_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 153
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08nodes_7
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 41
+        width: 135
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame08nodes_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 293
+        width: 108
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 

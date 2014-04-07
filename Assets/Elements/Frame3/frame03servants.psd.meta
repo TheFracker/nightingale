@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: 31614d12568cac7469dfe80146a8af8c
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: frame03servants_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1184
+        width: 273
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1184
+        width: 274
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1184
+        width: 274
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_3
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1184
+        width: 276
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_4
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1185
+        width: 228
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_5
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1189
+        width: 260
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_6
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 45
+        width: 272
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 883
+        width: 225
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 880
+        width: 225
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_9
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 879
+        width: 208
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_10
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 883
+        width: 186
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_11
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 883
+        width: 194
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_12
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 883
+        width: 209
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_13
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 883
+        width: 186
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 637
+        width: 176
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 637
+        width: 155
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_16
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 637
+        width: 150
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 637
+        width: 153
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_18
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 637
+        width: 155
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_19
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 637
+        width: 155
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_20
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 637
+        width: 141
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_21
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 637
+        width: 150
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 439
+        width: 145
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_23
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 49
+        width: 474
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_24
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 248
+        width: 276
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_25
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 405
+        width: 172
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_26
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 11
+        width: 328
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame03servants_27
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 101
+        width: 187
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

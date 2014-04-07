@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: f246b4e3f088aa44abea3c9df2885479
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: frame02elements_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 254
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_1
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1355
+        width: 142
+        height: 145
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: frame02elements_2
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1220
+        width: 240
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_3
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1220
+        width: 240
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_4
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1204
+        width: 254
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_5
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1204
+        width: 254
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_6
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 813
+        width: 289
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_7
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 695
+        width: 350
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_8
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 805
+        width: 272
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_10
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 597
+        width: 230
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_11
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 847
+        width: 162
+        height: 326
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: frame02elements_13
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 630
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_14
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 603
+        width: 122
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_15
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 525
+        width: 107
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_16
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 547
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_17
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 525
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_18
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 504
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: frame02elements_19
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 459
+        width: 173
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_20
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 465
+        width: 124
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_22
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 427
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_23
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 427
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_24
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 419
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_25
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 407
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_26
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 405
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_27
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 341
+        width: 112
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_28
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 397
+        width: 282
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_29
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 241
+        width: 238
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_30
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 344
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_31
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 360
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_32
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 333
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_33
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 112
+        width: 78
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_34
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 297
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_36
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 265
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_37
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 221
+        width: 65
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_38
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 285
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_39
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 91
+        width: 74
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_40
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 305
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: frame02elements_41
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 253
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_43
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 295
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: frame02elements_44
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 249
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_45
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 199
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_46
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 279
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_47
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 221
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_48
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 241
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_49
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 203
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_50
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 227
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_51
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 117
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_52
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 117
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_53
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 119
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_54
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 139
+        width: 120
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_55
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 131
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_56
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 171
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_57
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 16
+        width: 214
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_58
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 107
+        width: 76
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_59
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 37
+        width: 164
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_60
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 29
+        width: 170
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_61
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 37
+        width: 116
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_62
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 35
+        width: 116
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: frame02elements_60
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1200
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
