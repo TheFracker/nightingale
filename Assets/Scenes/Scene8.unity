@@ -2553,7 +2553,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 742523794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.898370743, y: 1.09985662, z: .899999976}
+  m_LocalPosition: {x: -.898370743, y: 1.150401, z: .899999976}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 804016626}
@@ -2773,7 +2773,7 @@ GameObject:
   - 4: {fileID: 813783540}
   - 212: {fileID: 813783539}
   m_Layer: 0
-  m_Name: frame08elements_31
+  m_Name: nightingale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2973,7 +2973,7 @@ GameObject:
   - 4: {fileID: 853527675}
   - 212: {fileID: 853527674}
   m_Layer: 0
-  m_Name: frame08lightrays
+  m_Name: lightrays
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3439,7 +3439,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1034168757}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 21}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
