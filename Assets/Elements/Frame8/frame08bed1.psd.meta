@@ -49,11 +49,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 92
-        y: 440
+        y: 1142
         width: 1204
-        height: 938
+        height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: frame08bed1_1
       rect:
         serializedVersion: 2
@@ -62,7 +62,7 @@ TextureImporter:
         width: 597
         height: 961
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: frame08bed1_2
       rect:
         serializedVersion: 2
@@ -71,6 +71,15 @@ TextureImporter:
         width: 2048
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+    - name: frame08bed1_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 440
+        width: 1119
+        height: 702
+      alignment: 0
+      pivot: {x: .5, y: .5}
   spritePackingTag: 
   userData: 
