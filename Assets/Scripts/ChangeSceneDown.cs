@@ -2,15 +2,11 @@
 using System.Collections;
 
 public class ChangeSceneDown : MonoBehaviour {
-
+	public int LevelToLoad;
 	void OnMouseUpAsButton()
 	{
 		Debug.Log(Application.loadedLevel);
 
-		if (Application.loadedLevel == 2)
-			Application.LoadLevel(1);
-		Application.LoadLevel (Application.loadedLevel - 1);
-
-
+		Application.LoadLevel (LevelToLoad);
 	}
 }
