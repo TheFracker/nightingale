@@ -35,13 +35,13 @@ public class Message {
 // inherit any number of specialized message
 // classes that contain additional information
 
-public class NewPlayerMessage : Message {
+public class ClickMessage : Message {
 	
-	public int PlayerGUID	{get; set;}
+	public int value	{get; set;}
 	
-	public NewPlayerMessage(GameObject s, string n, string v, int p) : base(s,n,v)
+	public ClickMessage(GameObject s, string n, string v, int p) : base(s,n,v)
 	{
-		PlayerGUID = p;
+		value = p;
 	}
 }
 
