@@ -7120,6 +7120,7 @@ GameObject:
   - 114: {fileID: 1763974240}
   - 58: {fileID: 1763974239}
   - 114: {fileID: 1763974241}
+  - 95: {fileID: 1763974242}
   m_Layer: 0
   m_Name: Frog
   m_TagString: Untagged
@@ -7249,6 +7250,20 @@ MonoBehaviour:
   TrackTarget: 0
   ShowGizmo: 0
   BreadCrumbTrackInterval: 1
+--- !u!95 &1763974242
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763974235}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4f97e1bbbfc3146e4a7b0209dbfe521b, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 0
+  m_AnimatePhysics: 1
+  m_HasTransformHierarchy: 1
 --- !u!1 &1821177234
 GameObject:
   m_ObjectHideFlags: 0
