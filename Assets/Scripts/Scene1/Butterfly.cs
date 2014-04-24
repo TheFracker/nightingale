@@ -7,7 +7,7 @@ public class Butterfly : MessageBehaviour {
 
 	void OnMouseUpAsButton()
 	{
-		Messenger.SendToListeners(new ClickMessage(gameObject, "ClickMessage", "butterfly", ++click));
+		Messenger.SendToListeners(new ClickMessage(gameObject, "Scene1ClickMessage", "butterfly", ++click));
 	}
 
 }

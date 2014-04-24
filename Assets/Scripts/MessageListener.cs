@@ -159,15 +159,15 @@ public class MessageListener : MessageBehaviour {
 		lamps9Clicks = 0;
 
 		// register a listener for one of our methods
-		Messenger.RegisterListener(new Listener("Click1Message", gameObject, "HandleClickScene1Message"));
-		Messenger.RegisterListener(new Listener("Click2Message", gameObject, "HandleClickScene2Message"));
-		Messenger.RegisterListener(new Listener("Click3Message", gameObject, "HandleClickScene3Message"));
-		Messenger.RegisterListener(new Listener("Click4Message", gameObject, "HandleClickScene4Message"));
-		Messenger.RegisterListener(new Listener("Click5Message", gameObject, "HandleClickScene5Message"));
-		Messenger.RegisterListener(new Listener("Click6Message", gameObject, "HandleClickScene6Message"));
-		Messenger.RegisterListener(new Listener("Click7Message", gameObject, "HandleClickScene7Message"));
-		Messenger.RegisterListener(new Listener("Click8Message", gameObject, "HandleClickScene8Message"));
-		Messenger.RegisterListener(new Listener("Click9Message", gameObject, "HandleClickScene9Message"));
+		Messenger.RegisterListener(new Listener("Scene1ClickMessage", gameObject, "HandleClickScene1Message"));
+		Messenger.RegisterListener(new Listener("Scene2ClickMessage", gameObject, "HandleClickScene2Message"));
+		Messenger.RegisterListener(new Listener("Scene3ClickMessage", gameObject, "HandleClickScene3Message"));
+		Messenger.RegisterListener(new Listener("Scene4ClickMessage", gameObject, "HandleClickScene4Message"));
+		Messenger.RegisterListener(new Listener("Scene5ClickMessage", gameObject, "HandleClickScene5Message"));
+		Messenger.RegisterListener(new Listener("Scene6ClickMessage", gameObject, "HandleClickScene6Message"));
+		Messenger.RegisterListener(new Listener("Scene7ClickMessage", gameObject, "HandleClickScene7Message"));
+		Messenger.RegisterListener(new Listener("Scene8ClickMessage", gameObject, "HandleClickScene8Message"));
+		Messenger.RegisterListener(new Listener("Scene9ClickMessage", gameObject, "HandleClickScene9Message"));
 
 		
 	}
@@ -185,13 +185,13 @@ public class MessageListener : MessageBehaviour {
 			kaiser1Clicks = m.value;
 		else if (m.MessageValue == "cow")
 			cowClicks = m.value;
-		else if (m.MessageValue == "bell")
+		else if (m.MessageValue == "bells")
 			bellClicks = m.value;
 		else if (m.MessageValue == "waiter")
 			waiter1Clicks = m.value;
-		else if (m.MessageValue == "servant")
+		else if (m.MessageValue == "servants")
 			servants1Clicks = m.value;
-		else if (m.MessageValue == "flower")
+		else if (m.MessageValue == "flowers")
 			flowersClicks = m.value;
 	}
 
