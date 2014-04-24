@@ -1,15 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Kaiser : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+public class Kaiser : MessageBehaviour {
 	
+	int click = 0;
+	
+	void OnMouseUpAsButton()
+	{
+		Messenger.SendToListeners(new ClickMessage(gameObject, "Scene6ClickMessage", "kaiser", ++click));
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

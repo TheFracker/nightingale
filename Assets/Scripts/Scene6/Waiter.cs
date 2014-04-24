@@ -1,15 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Waiter : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+public class Waiter : MessageBehaviour {
 	
+	int click = 0;
+	
+	void OnMouseUpAsButton()
+	{
+		Messenger.SendToListeners(new ClickMessage(gameObject, "Scene6ClickMessage", "waiter", ++click));
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }
