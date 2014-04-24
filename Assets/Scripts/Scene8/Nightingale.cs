@@ -1,15 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Nightingale : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+public class Nightingale : MessageBehaviour {
 	
+	int click = 0;
+	
+	void OnMouseUpAsButton()
+	{
+		Messenger.SendToListeners(new ClickMessage(gameObject, "Scene8ClickMessage", "nightingale", ++click));
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }
