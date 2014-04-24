@@ -1,15 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Ribbons : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+public class Ribbons : MessageBehaviour {
 	
+	int click = 0;
+	
+	void OnMouseUpAsButton()
+	{
+		Messenger.SendToListeners(new ClickMessage(gameObject, "Scene4ClickMessage", "ribbons", ++click));
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

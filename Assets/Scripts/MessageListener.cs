@@ -235,7 +235,7 @@ public class MessageListener : MessageBehaviour {
 			nightingale4Clicks = m.value;
 		else if (m.MessageValue == "servant")
 			servants4Clicks = m.value;
-		else if (m.MessageValue == "ribbon")
+		else if (m.MessageValue == "ribbons")
 			ribbonClicks = m.value;
 		else if (m.MessageValue == "lamps")
 			lamps4Clicks = m.value;
