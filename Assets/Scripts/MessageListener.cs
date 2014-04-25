@@ -327,7 +327,7 @@ public class MessageListener : MessageBehaviour {
 			lamps9Clicks += m.value;
 	}
 
-	void OnApplicationQuit() // Should be changed to OnApplicationPause() for tablet
+	void OnApplicationPause() // Should be changed to OnApplicationPause() for tablet
 	{
 		string filePath = Application.persistentDataPath + "/results.txt";
 		string toPrint = createStringToPrint();
