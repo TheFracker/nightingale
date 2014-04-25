@@ -2,12 +2,10 @@
 using System.Collections;
 
 public class Waiter7 : MessageBehaviour {
-	
-	int click = 0;
-	
+
 	void OnMouseUpAsButton()
 	{
-		Messenger.SendToListeners(new ClickMessage(gameObject, "Scene7ClickMessage", "waiter", ++click));
+		Messenger.SendToListeners(new ClickMessage(gameObject, "Scene7ClickMessage", "waiter", 1));
 	}
 	
 }

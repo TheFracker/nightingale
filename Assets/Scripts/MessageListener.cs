@@ -176,155 +176,155 @@ public class MessageListener : MessageBehaviour {
 	public void HandleClickScene1Message(ClickMessage m)
 	{
 		if(m.MessageValue == "butterfly")
-			butterflyClicks = m.value;
+			butterflyClicks += m.value;
 		else if (m.MessageValue == "nightingale")
-			nightingale1Clicks = m.value;
+			nightingale1Clicks += m.value;
 		else if (m.MessageValue == "frog")
-			frogClicks = m.value;
+			frogClicks += m.value;
 		else if (m.MessageValue == "kaiser")
-			kaiser1Clicks = m.value;
+			kaiser1Clicks += m.value;
 		else if (m.MessageValue == "cow")
-			cowClicks = m.value;
+			cowClicks += m.value;
 		else if (m.MessageValue == "bells")
-			bellClicks = m.value;
+			bellClicks += m.value;
 		else if (m.MessageValue == "waiter")
-			waiter1Clicks = m.value;
+			waiter1Clicks += m.value;
 		else if (m.MessageValue == "servants")
-			servants1Clicks = m.value;
+			servants1Clicks += m.value;
 		else if (m.MessageValue == "flowers")
-			flowersClicks = m.value;
+			flowersClicks += m.value;
 	}
 
 	public void HandleClickScene2Message(ClickMessage m)
 	{
 		if(m.MessageValue == "kaiser")
-			kaiser2Clicks = m.value;
+			kaiser2Clicks += m.value;
 		else if (m.MessageValue == "nightingale")
-			nightingale2Clicks = m.value;
+			nightingale2Clicks += m.value;
 		else if (m.MessageValue == "waiter")
-			waiter2Clicks = m.value;
+			waiter2Clicks += m.value;
 		else if (m.MessageValue == "servants")
-			servants2Clicks = m.value;
+			servants2Clicks += m.value;
 		else if (m.MessageValue == "vases")
-			vase2Clicks = m.value;
+			vase2Clicks += m.value;
 		else if (m.MessageValue == "paintings")
-			paintingClicks = m.value;
+			paintingClicks += m.value;
 		else if (m.MessageValue == "lamps")
-			lamps2Clicks = m.value;
+			lamps2Clicks += m.value;
 	}
 
 	public void HandleClickScene3Message(ClickMessage m)
 	{
 		if (m.MessageValue == "nightingale")
-			nightingale3Clicks = m.value;
+			nightingale3Clicks += m.value;
 		else if (m.MessageValue == "kaiser")
-			kaiser3Clicks = m.value;
+			kaiser3Clicks += m.value;
 		else if (m.MessageValue == "waiter")
-			waiter3Clicks = m.value;
+			waiter3Clicks += m.value;
 		else if (m.MessageValue == "vases")
-			vase3Clicks = m.value;
+			vase3Clicks += m.value;
 		else if (m.MessageValue == "crowd")
-			crowd3Clicks = m.value;
+			crowd3Clicks += m.value;
 		else if (m.MessageValue == "lamps")
-			lamps3Clicks = m.value;
+			lamps3Clicks += m.value;
 	}
 
 	public void HandleClickScene4Message(ClickMessage m)
 	{
 		if (m.MessageValue == "nightingale")
-			nightingale4Clicks = m.value;
+			nightingale4Clicks += m.value;
 		else if (m.MessageValue == "servant")
-			servants4Clicks = m.value;
+			servants4Clicks += m.value;
 		else if (m.MessageValue == "ribbons")
-			ribbonClicks = m.value;
+			ribbonClicks += m.value;
 		else if (m.MessageValue == "lamps")
-			lamps4Clicks = m.value;
+			lamps4Clicks += m.value;
 	}
 
 	public void HandleClickScene5Message(ClickMessage m)
 	{
 		if (m.MessageValue == "nightingale")
-			nightingale5Clicks = m.value;
+			nightingale5Clicks += m.value;
 		else if (m.MessageValue == "nightingale robot")
-			nightingaleRobot5Clicks = m.value;
+			nightingaleRobot5Clicks += m.value;
 		else if (m.MessageValue == "kaiser")
-			kaiser5Clicks = m.value;
+			kaiser5Clicks += m.value;
 		else if (m.MessageValue == "waiter")
-			waiter5Clicks = m.value;
+			waiter5Clicks += m.value;
 		else if (m.MessageValue == "mechanic")
-			mechanicClicks = m.value;
+			mechanicClicks += m.value;
 		else if (m.MessageValue == "vases")
-			vase5Clicks = m.value;
+			vase5Clicks += m.value;
 		else if (m.MessageValue == "crowd")
-			crowd5Clicks = m.value;
+			crowd5Clicks += m.value;
 		else if (m.MessageValue == "lamps")
-			lamps5Clicks = m.value;
+			lamps5Clicks += m.value;
 	}
 
 	public void HandleClickScene6Message(ClickMessage m)
 	{
 		if (m.MessageValue == "nightingale")
-			nightingale6Clicks = m.value;
+			nightingale6Clicks += m.value;
 		else if (m.MessageValue == "kaiser")
-			kaiser6Clicks = m.value;
+			kaiser6Clicks += m.value;
 		else if (m.MessageValue == "waiter")
-			waiter6Clicks = m.value;
+			waiter6Clicks += m.value;
 		else if (m.MessageValue == "nightingale robot")
-			nightingaleRobot6Clicks = m.value;
+			nightingaleRobot6Clicks += m.value;
 		else if (m.MessageValue == "servants")
-			servants6Clicks = m.value;
+			servants6Clicks += m.value;
 		else if (m.MessageValue == "lamps")
-			lamps6Clicks = m.value;
+			lamps6Clicks += m.value;
 	}
 
 	public void HandleClickScene7Message(ClickMessage m)
 	{
 		if (m.MessageValue == "nightingale")
-			nightingale7Clicks = m.value;
+			nightingale7Clicks += m.value;
 		else if (m.MessageValue == "kaiser")
-			kaiser7Clicks = m.value;
+			kaiser7Clicks += m.value;
 		else if (m.MessageValue == "waiter")
-			waiter7Clicks = m.value;
+			waiter7Clicks += m.value;
 		else if (m.MessageValue == "nightingale robot")
-			nightingaleRobot7Clicks = m.value;
+			nightingaleRobot7Clicks += m.value;
 		else if (m.MessageValue == "crowd")
-			crowd7Clicks = m.value;
+			crowd7Clicks += m.value;
 		else if (m.MessageValue == "vases")
-			vase5Clicks = m.value;
+			vase7Clicks += m.value;
 		else if (m.MessageValue == "curtains")
-			curtainsClicks = m.value;
+			curtainsClicks += m.value;
 		else if (m.MessageValue == "lamps")
-			lamps7Clicks = m.value;
+			lamps7Clicks += m.value;
 	}
 
 	public void HandleClickScene8Message(ClickMessage m)
 	{
 		if (m.MessageValue == "nightingale")
-			nightingale8Clicks = m.value;
+			nightingale8Clicks += m.value;
 		else if (m.MessageValue == "kaiser")
-			kaiser8Clicks = m.value;
+			kaiser8Clicks += m.value;
 		else if (m.MessageValue == "waiter")
-			waiter8Clicks = m.value;
+			waiter8Clicks += m.value;
 		else if (m.MessageValue == "crowd")
-			crowd8Clicks = m.value;
+			crowd8Clicks += m.value;
 		else if (m.MessageValue == "vases")
-			vase8Clicks = m.value;
+			vase8Clicks += m.value;
 		else if (m.MessageValue == "lamps")
-			lamps8Clicks = m.value;
+			lamps8Clicks += m.value;
 	}
 
 	public void HandleClickScene9Message(ClickMessage m)
 	{
 		if (m.MessageValue == "nightingale")
-			nightingale9Clicks = m.value;
+			nightingale9Clicks += m.value;
 		else if (m.MessageValue == "kaiser")
-			kaiser9Clicks = m.value;
+			kaiser9Clicks += m.value;
 		else if (m.MessageValue == "waiter")
-			waiter9Clicks = m.value;
-		else if (m.MessageValue == "servant")
-			servants9Clicks = m.value;
+			waiter9Clicks += m.value;
+		else if (m.MessageValue == "servants")
+			servants9Clicks += m.value;
 		else if (m.MessageValue == "lamps")
-			lamps9Clicks = m.value;
+			lamps9Clicks += m.value;
 	}
 
 	void OnApplicationQuit() // Should be changed to OnApplicationPause() for tablet
@@ -374,7 +374,7 @@ public class MessageListener : MessageBehaviour {
 			"Waiter: " + waiter5Clicks + nl +
 			"Nightingale: " + nightingale5Clicks + nl +
 			"Nightingale Robot: " + nightingaleRobot5Clicks + nl +
-			"Mechaninc: " + mechanicClicks + nl +
+			"Mechanic: " + mechanicClicks + nl +
 			"Vase: " + vase5Clicks + nl + 
 			"Crowd: " + crowd5Clicks + nl +
 			"Lamps: " + lamps5Clicks + nl +

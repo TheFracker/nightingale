@@ -232,6 +232,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 30329844}
+  - 114: {fileID: 30329846}
+  - 58: {fileID: 30329845}
   m_Layer: 0
   m_Name: Kaiser
   m_TagString: Untagged
@@ -260,6 +262,28 @@ Transform:
   - {fileID: 312109364}
   - {fileID: 635210038}
   m_Father: {fileID: 0}
+--- !u!58 &30329845
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 30329843}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: 1.41999996
+  m_Center: {x: 1.20000005, y: -2.05999994}
+--- !u!114 &30329846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 30329843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e764b5e1ae4959c468944d232dccdde1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &34105993
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,6 +296,7 @@ GameObject:
   - 82: {fileID: 34105998}
   - 114: {fileID: 34105997}
   - 58: {fileID: 34105996}
+  - 114: {fileID: 34105999}
   m_Layer: 0
   m_Name: nightingale
   m_TagString: Untagged
@@ -393,6 +418,17 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &34105999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 34105993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4444a6479e0346c4b897de4f0ab7d2cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &37275467
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,6 +539,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 63424340}
   - 212: {fileID: 63424341}
+  - 114: {fileID: 63424342}
   m_Layer: 0
   m_Name: flower_xsmall_9
   m_TagString: Untagged
@@ -544,6 +581,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &63424342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63424339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &66198525
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,6 +601,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 66198526}
   - 212: {fileID: 66198527}
+  - 114: {fileID: 66198528}
   m_Layer: 0
   m_Name: flower_xxsmall_4
   m_TagString: Untagged
@@ -594,6 +643,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &66198528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 66198525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &75873110
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +666,7 @@ GameObject:
   - 114: {fileID: 75873115}
   - 82: {fileID: 75873114}
   - 58: {fileID: 75873113}
+  - 114: {fileID: 75873116}
   m_Layer: 0
   m_Name: small_bell_3
   m_TagString: Untagged
@@ -727,6 +788,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6367fced96ef04a60b98d2235c699e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &75873116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 75873110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e0578aeeb75ae499d47537832d9edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &84700525
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +808,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 84700526}
   - 212: {fileID: 84700527}
+  - 58: {fileID: 84700529}
+  - 114: {fileID: 84700528}
   m_Layer: 0
   m_Name: flower_xlarge_2
   m_TagString: Untagged
@@ -777,6 +851,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300030, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &84700528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84700525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &84700529
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84700525}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .745000005
+  m_Center: {x: 0, y: 0}
 --- !u!1 &131678075
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,6 +882,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 131678076}
   - 212: {fileID: 131678077}
+  - 114: {fileID: 131678078}
   m_Layer: 0
   m_Name: flower_xxsmall_7
   m_TagString: Untagged
@@ -827,6 +924,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &131678078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131678075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &136266993
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,6 +944,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 136266994}
   - 212: {fileID: 136266995}
+  - 58: {fileID: 136266997}
+  - 114: {fileID: 136266996}
   m_Layer: 0
   m_Name: flower_xxsmall_11
   m_TagString: Untagged
@@ -877,6 +987,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &136266996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 136266993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &136266997
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 136266993}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .245000005
+  m_Center: {x: 0, y: 0}
 --- !u!1 &172130683
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,6 +1018,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 172130684}
   - 212: {fileID: 172130685}
+  - 58: {fileID: 172130687}
+  - 114: {fileID: 172130686}
   m_Layer: 0
   m_Name: flower_xxsmall_13
   m_TagString: Untagged
@@ -927,6 +1061,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &172130686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172130683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &172130687
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172130683}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .245000005
+  m_Center: {x: 0, y: 0}
 --- !u!1 &184237091
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,6 +1092,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 184237092}
   - 212: {fileID: 184237093}
+  - 58: {fileID: 184237095}
+  - 114: {fileID: 184237094}
   m_Layer: 0
   m_Name: flower_medium_1
   m_TagString: Untagged
@@ -977,6 +1135,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300022, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &184237094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 184237091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &184237095
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 184237091}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .564999998
+  m_Center: {x: 0, y: 0}
 --- !u!1 &190199149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1294,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 219491449}
   - 212: {fileID: 219491448}
+  - 58: {fileID: 219491451}
+  - 114: {fileID: 219491450}
   m_Layer: 0
   m_Name: flower_xlarge_1
   m_TagString: Untagged
@@ -1155,6 +1337,28 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1904989423}
+--- !u!114 &219491450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 219491447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &219491451
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 219491447}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .745000005
+  m_Center: {x: 0, y: 0}
 --- !u!1 &227946288
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,7 +1513,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 268203578}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70770917ce18e944d99b4d01299d445d, type: 3}
+  m_Script: {fileID: 11500000, guid: 650970472c52eb34f8fa6aa8a26ec20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &293402658
@@ -1422,6 +1626,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 316414713}
   - 212: {fileID: 316414714}
+  - 58: {fileID: 316414716}
+  - 114: {fileID: 316414715}
   m_Layer: 0
   m_Name: flower_xxsmall_15
   m_TagString: Untagged
@@ -1463,6 +1669,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &316414715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 316414712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &316414716
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 316414712}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .245000005
+  m_Center: {x: 0, y: 0}
 --- !u!1 &324798474
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,6 +1753,7 @@ GameObject:
   - 82: {fileID: 335532024}
   - 114: {fileID: 335532023}
   - 58: {fileID: 335532022}
+  - 114: {fileID: 335532025}
   m_Layer: 0
   m_Name: large_bell
   m_TagString: Untagged
@@ -1646,6 +1875,17 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &335532025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 335532019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e0578aeeb75ae499d47537832d9edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &369644549
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,6 +1895,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 369644550}
   - 212: {fileID: 369644551}
+  - 114: {fileID: 369644552}
   m_Layer: 0
   m_Name: flower_xxsmall_9
   m_TagString: Untagged
@@ -1696,6 +1937,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &369644552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 369644549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &389150333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,6 +2207,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 432403315}
   - 212: {fileID: 432403316}
+  - 58: {fileID: 432403318}
+  - 114: {fileID: 432403317}
   m_Layer: 0
   m_Name: flower_xsmall_4
   m_TagString: Untagged
@@ -1996,6 +2250,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &432403317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 432403314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &432403318
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 432403314}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .335000008
+  m_Center: {x: 0, y: 0}
 --- !u!1 &437274198
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,6 +2381,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 443487710}
   - 212: {fileID: 443487711}
+  - 58: {fileID: 443487713}
+  - 114: {fileID: 443487712}
   m_Layer: 0
   m_Name: flower_xsmall_5
   m_TagString: Untagged
@@ -2146,6 +2424,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &443487712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443487709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &443487713
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443487709}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .335000008
+  m_Center: {x: 0, y: 0}
 --- !u!1 &447521203
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,6 +2709,7 @@ GameObject:
   - 114: {fileID: 495095254}
   - 82: {fileID: 495095253}
   - 58: {fileID: 495095252}
+  - 114: {fileID: 495095255}
   m_Layer: 0
   m_Name: small_bell_2
   m_TagString: Untagged
@@ -2530,6 +2831,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6367fced96ef04a60b98d2235c699e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &495095255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 495095249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e0578aeeb75ae499d47537832d9edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &515152544
 GameObject:
   m_ObjectHideFlags: 0
@@ -2539,6 +2851,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 515152545}
   - 212: {fileID: 515152546}
+  - 58: {fileID: 515152548}
+  - 114: {fileID: 515152547}
   m_Layer: 0
   m_Name: flower_xsmall_10
   m_TagString: Untagged
@@ -2580,6 +2894,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &515152547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 515152544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &515152548
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 515152544}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .335000008
+  m_Center: {x: 0, y: 0}
 --- !u!1 &516528144
 GameObject:
   m_ObjectHideFlags: 0
@@ -2639,6 +2975,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 534438813}
   - 212: {fileID: 534438814}
+  - 114: {fileID: 534438815}
   m_Layer: 0
   m_Name: flower_xxsmall_14
   m_TagString: Untagged
@@ -2680,6 +3017,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &534438815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534438812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &545593683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,6 +3087,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 548732331}
   - 212: {fileID: 548732332}
+  - 114: {fileID: 548732333}
   m_Layer: 0
   m_Name: flower_small_2
   m_TagString: Untagged
@@ -2780,6 +3129,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300026, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &548732333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 548732330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &554324602
 GameObject:
   m_ObjectHideFlags: 0
@@ -2789,6 +3149,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 554324603}
   - 212: {fileID: 554324604}
+  - 114: {fileID: 554324606}
+  - 58: {fileID: 554324605}
   m_Layer: 0
   m_Name: butterfly_yellow
   m_TagString: Untagged
@@ -2830,6 +3192,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300118, guid: 4522aa97e501f4c4982bad99b67d2649, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!58 &554324605
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 554324602}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .49000001
+  m_Center: {x: 0, y: 0}
+--- !u!114 &554324606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 554324602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780897980c6d03d40aebd251b9a6fa4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &560472349
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,6 +3222,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 560472350}
+  - 61: {fileID: 560472352}
+  - 114: {fileID: 560472351}
   m_Layer: 0
   m_Name: Servants
   m_TagString: Untagged
@@ -2859,6 +3245,28 @@ Transform:
   - {fileID: 227946289}
   - {fileID: 2066982437}
   m_Father: {fileID: 0}
+--- !u!114 &560472351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 560472349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8921e76a601cb468b86f3e53f86dfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &560472352
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 560472349}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 2.25, y: 1.39999998}
+  m_Center: {x: -2.0999999, y: -3.24000001}
 --- !u!1 &560809459
 GameObject:
   m_ObjectHideFlags: 0
@@ -3112,6 +3520,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 628666567}
   - 212: {fileID: 628666568}
+  - 114: {fileID: 628666569}
   m_Layer: 0
   m_Name: flower_xlarge_3
   m_TagString: Untagged
@@ -3153,6 +3562,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300030, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &628666569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 628666566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &635210037
 GameObject:
   m_ObjectHideFlags: 0
@@ -3365,6 +3785,7 @@ GameObject:
   - 114: {fileID: 661856491}
   - 82: {fileID: 661856490}
   - 58: {fileID: 661856489}
+  - 114: {fileID: 661856492}
   m_Layer: 0
   m_Name: small_bell_1
   m_TagString: Untagged
@@ -3486,6 +3907,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6367fced96ef04a60b98d2235c699e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &661856492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 661856486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e0578aeeb75ae499d47537832d9edd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &667743052
 GameObject:
   m_ObjectHideFlags: 0
@@ -3495,6 +3927,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 667743053}
   - 212: {fileID: 667743054}
+  - 114: {fileID: 667743055}
   m_Layer: 0
   m_Name: flower_xxsmall_5
   m_TagString: Untagged
@@ -3536,6 +3969,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &667743055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 667743052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &683456740
 GameObject:
   m_ObjectHideFlags: 0
@@ -3760,6 +4204,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 749120096}
   - 212: {fileID: 749120097}
+  - 58: {fileID: 749120099}
+  - 114: {fileID: 749120098}
   m_Layer: 0
   m_Name: flower_medium_3
   m_TagString: Untagged
@@ -3801,6 +4247,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300022, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &749120098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749120095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &749120099
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 749120095}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .564999998
+  m_Center: {x: 0, y: 0}
 --- !u!1 &750275053
 GameObject:
   m_ObjectHideFlags: 0
@@ -3910,6 +4378,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 768143157}
   - 212: {fileID: 768143158}
+  - 114: {fileID: 768143160}
+  - 58: {fileID: 768143159}
   m_Layer: 0
   m_Name: butterfly_pink
   m_TagString: Untagged
@@ -3951,6 +4421,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300120, guid: 4522aa97e501f4c4982bad99b67d2649, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!58 &768143159
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768143156}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .639999986
+  m_Center: {x: 0, y: 0}
+--- !u!114 &768143160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768143156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780897980c6d03d40aebd251b9a6fa4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &774778644
 GameObject:
   m_ObjectHideFlags: 0
@@ -4110,6 +4602,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 929992607}
   - 212: {fileID: 929992608}
+  - 58: {fileID: 929992610}
+  - 114: {fileID: 929992609}
   m_Layer: 0
   m_Name: flower_mini_2
   m_TagString: Untagged
@@ -4151,6 +4645,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300018, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &929992609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 929992606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &929992610
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 929992606}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .174999997
+  m_Center: {x: 0, y: 0}
 --- !u!1 &940191037
 GameObject:
   m_ObjectHideFlags: 0
@@ -4237,6 +4753,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 949927633}
   - 212: {fileID: 949927634}
+  - 58: {fileID: 949927636}
+  - 114: {fileID: 949927635}
   m_Layer: 0
   m_Name: flower_large_1
   m_TagString: Untagged
@@ -4278,6 +4796,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300020, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &949927635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 949927632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &949927636
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 949927632}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .589999974
+  m_Center: {x: 0, y: 0}
 --- !u!1 &955263218
 GameObject:
   m_ObjectHideFlags: 0
@@ -4369,6 +4909,7 @@ GameObject:
   - 114: {fileID: 978311406}
   - 82: {fileID: 978311405}
   - 58: {fileID: 978311404}
+  - 114: {fileID: 978311407}
   m_Layer: 0
   m_Name: small_bell_4
   m_TagString: Untagged
@@ -4488,6 +5029,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6367fced96ef04a60b98d2235c699e99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &978311407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 978311401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e0578aeeb75ae499d47537832d9edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &984568020
@@ -5044,6 +5596,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1162538566}
   - 212: {fileID: 1162538567}
+  - 58: {fileID: 1162538569}
+  - 114: {fileID: 1162538568}
   m_Layer: 0
   m_Name: flower_small_1
   m_TagString: Untagged
@@ -5085,6 +5639,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300026, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1162538568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1162538565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1162538569
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1162538565}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .36500001
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1201389743
 GameObject:
   m_ObjectHideFlags: 0
@@ -5315,6 +5891,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1255431679}
   - 212: {fileID: 1255431680}
+  - 58: {fileID: 1255431682}
+  - 114: {fileID: 1255431681}
   m_Layer: 0
   m_Name: flower_xsmall_2
   m_TagString: Untagged
@@ -5356,6 +5934,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1255431681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255431678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1255431682
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255431678}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .335000008
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1260507589
 GameObject:
   m_ObjectHideFlags: 0
@@ -5415,6 +6015,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1261797302}
   - 212: {fileID: 1261797303}
+  - 114: {fileID: 1261797304}
   m_Layer: 0
   m_Name: flower_mega_1
   m_TagString: Untagged
@@ -5456,6 +6057,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300016, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1261797304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1261797301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1270871358
 GameObject:
   m_ObjectHideFlags: 0
@@ -5565,6 +6177,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1284759137}
   - 212: {fileID: 1284759138}
+  - 58: {fileID: 1284759140}
+  - 114: {fileID: 1284759139}
   m_Layer: 0
   m_Name: flower_xsmall_3
   m_TagString: Untagged
@@ -5606,6 +6220,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1284759139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1284759136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1284759140
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1284759136}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .335000008
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1294891144
 GameObject:
   m_ObjectHideFlags: 0
@@ -5642,6 +6278,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1337186245}
   - 212: {fileID: 1337186246}
+  - 58: {fileID: 1337186248}
+  - 114: {fileID: 1337186247}
   m_Layer: 0
   m_Name: flower_xsmall_7
   m_TagString: Untagged
@@ -5683,6 +6321,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1337186247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1337186244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1337186248
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1337186244}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .335000008
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1338010818
 GameObject:
   m_ObjectHideFlags: 0
@@ -5692,6 +6352,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1338010819}
   - 212: {fileID: 1338010820}
+  - 114: {fileID: 1338010821}
   m_Layer: 0
   m_Name: flower_xsmall_8
   m_TagString: Untagged
@@ -5733,6 +6394,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1338010821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338010818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1360987986
 GameObject:
   m_ObjectHideFlags: 0
@@ -5833,68 +6505,6 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300006, guid: 4522aa97e501f4c4982bad99b67d2649, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!1 &1373310520
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1373310524}
-  - 114: {fileID: 1373310523}
-  - 114: {fileID: 1373310522}
-  - 114: {fileID: 1373310521}
-  m_Layer: 0
-  m_Name: GA_SystemTracker
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1373310521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1373310520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6843408d815954fbe96fefa8cca63818, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1373310522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1373310520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adefe18d2f40dd84c8666cc766d5de82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1373310523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1373310520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bbc8ccc3079da149b67d1660115a829, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1373310524
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1373310520}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
 --- !u!1 &1373568012
 GameObject:
   m_ObjectHideFlags: 0
@@ -6011,6 +6621,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1418620764}
   - 212: {fileID: 1418620763}
+  - 114: {fileID: 1418620766}
+  - 58: {fileID: 1418620765}
   m_Layer: 0
   m_Name: butterfly_blue
   m_TagString: Untagged
@@ -6052,6 +6664,28 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 955263219}
+--- !u!58 &1418620765
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1418620762}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .75
+  m_Center: {x: 0, y: 0}
+--- !u!114 &1418620766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1418620762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780897980c6d03d40aebd251b9a6fa4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1449929263
 GameObject:
   m_ObjectHideFlags: 0
@@ -6111,6 +6745,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1451611572}
   - 212: {fileID: 1451611573}
+  - 58: {fileID: 1451611575}
+  - 114: {fileID: 1451611574}
   m_Layer: 0
   m_Name: flower_xsmall_11
   m_TagString: Untagged
@@ -6152,6 +6788,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1451611574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1451611571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1451611575
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1451611571}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .335000008
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1461485551
 GameObject:
   m_ObjectHideFlags: 0
@@ -6206,6 +6864,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1472632338}
   - 212: {fileID: 1472632339}
+  - 58: {fileID: 1472632341}
+  - 114: {fileID: 1472632340}
   m_Layer: 0
   m_Name: flower_xsmall_12
   m_TagString: Untagged
@@ -6247,6 +6907,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1472632340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472632337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1472632341
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472632337}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .335000008
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1478709355
 GameObject:
   m_ObjectHideFlags: 0
@@ -6306,6 +6988,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1495242833}
   - 212: {fileID: 1495242834}
+  - 58: {fileID: 1495242836}
+  - 114: {fileID: 1495242835}
   m_Layer: 0
   m_Name: flower_xxsmall_1
   m_TagString: Untagged
@@ -6347,6 +7031,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1495242835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1495242832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1495242836
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1495242832}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .245000005
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1511137304
 GameObject:
   m_ObjectHideFlags: 0
@@ -6456,6 +7162,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1550031621}
   - 212: {fileID: 1550031622}
+  - 58: {fileID: 1550031624}
+  - 114: {fileID: 1550031623}
   m_Layer: 0
   m_Name: flower_small_3
   m_TagString: Untagged
@@ -6497,6 +7205,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300026, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1550031623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1550031620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1550031624
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1550031620}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .36500001
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1559910775
 GameObject:
   m_ObjectHideFlags: 0
@@ -6556,6 +7286,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1610176490}
   - 212: {fileID: 1610176491}
+  - 114: {fileID: 1610176492}
   m_Layer: 0
   m_Name: flower_xxsmall_6
   m_TagString: Untagged
@@ -6597,6 +7328,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1610176492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1610176489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1636742816
 GameObject:
   m_ObjectHideFlags: 0
@@ -6906,6 +7648,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1683956096}
   - 212: {fileID: 1683956097}
+  - 58: {fileID: 1683956099}
+  - 114: {fileID: 1683956098}
   m_Layer: 0
   m_Name: flower_xxsmall_2
   m_TagString: Untagged
@@ -6947,6 +7691,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1683956098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1683956095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1683956099
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1683956095}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .245000005
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1691914627
 GameObject:
   m_ObjectHideFlags: 0
@@ -6956,6 +7722,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1691914628}
   - 212: {fileID: 1691914629}
+  - 58: {fileID: 1691914631}
+  - 114: {fileID: 1691914630}
   m_Layer: 0
   m_Name: flower_small_4
   m_TagString: Untagged
@@ -6997,6 +7765,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300026, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1691914630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1691914627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1691914631
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1691914627}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .36500001
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1696192393
 GameObject:
   m_ObjectHideFlags: 0
@@ -7106,6 +7896,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1743186775}
+  - 114: {fileID: 1743186777}
+  - 61: {fileID: 1743186776}
   m_Layer: 0
   m_Name: Waiter
   m_TagString: Untagged
@@ -7135,6 +7927,28 @@ Transform:
   - {fileID: 1672675209}
   - {fileID: 958925311}
   m_Father: {fileID: 0}
+--- !u!61 &1743186776
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1743186774}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1.41999996, y: 4.30000019}
+  m_Center: {x: 2.05999994, y: -1.25999999}
+--- !u!114 &1743186777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1743186774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56f6d8ccff22fc4189b708782075599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1759003091
 GameObject:
   m_ObjectHideFlags: 0
@@ -7197,8 +8011,8 @@ GameObject:
   - 82: {fileID: 1763974238}
   - 114: {fileID: 1763974240}
   - 58: {fileID: 1763974239}
-  - 114: {fileID: 1763974241}
   - 95: {fileID: 1763974242}
+  - 114: {fileID: 1763974241}
   m_Layer: 0
   m_Name: Frog
   m_TagString: Untagged
@@ -7320,7 +8134,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1763974235}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70770917ce18e944d99b4d01299d445d, type: 3}
+  m_Script: {fileID: 11500000, guid: 5516424fcc0007349b20feb61edfe3b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &1763974242
@@ -7397,6 +8211,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1859664929}
   - 212: {fileID: 1859664930}
+  - 58: {fileID: 1859664932}
+  - 114: {fileID: 1859664931}
   m_Layer: 0
   m_Name: flower_xxsmall_10
   m_TagString: Untagged
@@ -7438,6 +8254,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1859664931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1859664928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1859664932
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1859664928}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .245000005
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1862328741
 GameObject:
   m_ObjectHideFlags: 0
@@ -7497,6 +8335,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1877446827}
   - 212: {fileID: 1877446828}
+  - 58: {fileID: 1877446830}
+  - 114: {fileID: 1877446829}
   m_Layer: 0
   m_Name: flower_mini_1
   m_TagString: Untagged
@@ -7538,6 +8378,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300018, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1877446829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1877446826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1877446830
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1877446826}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .174999997
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1878514240
 GameObject:
   m_ObjectHideFlags: 0
@@ -7547,6 +8409,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1878514241}
   - 212: {fileID: 1878514242}
+  - 58: {fileID: 1878514244}
+  - 114: {fileID: 1878514243}
   m_Layer: 0
   m_Name: flower_xsmall_1
   m_TagString: Untagged
@@ -7588,6 +8452,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1878514243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1878514240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1878514244
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1878514240}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .335000008
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1904989422
 GameObject:
   m_ObjectHideFlags: 0
@@ -7680,6 +8566,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1916688802}
   - 212: {fileID: 1916688803}
+  - 58: {fileID: 1916688805}
+  - 114: {fileID: 1916688804}
   m_Layer: 0
   m_Name: flower_xxsmall_3
   m_TagString: Untagged
@@ -7721,6 +8609,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1916688804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1916688801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1916688805
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1916688801}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .245000005
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1923187189
 GameObject:
   m_ObjectHideFlags: 0
@@ -7809,6 +8719,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1945469031}
   - 212: {fileID: 1945469032}
+  - 58: {fileID: 1945469034}
+  - 114: {fileID: 1945469033}
   m_Layer: 0
   m_Name: flower_xxsmall_8
   m_TagString: Untagged
@@ -7850,6 +8762,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1945469033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945469030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1945469034
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945469030}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .245000005
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1949006564
 GameObject:
   m_ObjectHideFlags: 0
@@ -7859,6 +8793,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1949006565}
   - 212: {fileID: 1949006566}
+  - 114: {fileID: 1949006567}
   m_Layer: 0
   m_Name: flower_xlarge_4
   m_TagString: Untagged
@@ -7900,6 +8835,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300030, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &1949006567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1949006564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1950265944
 GameObject:
   m_ObjectHideFlags: 0
@@ -7987,6 +8933,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2019926372}
   - 212: {fileID: 2019926373}
+  - 58: {fileID: 2019926375}
+  - 114: {fileID: 2019926374}
   m_Layer: 0
   m_Name: flower_medium_2
   m_TagString: Untagged
@@ -8028,6 +8976,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300022, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2019926374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2019926371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &2019926375
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2019926371}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .564999998
+  m_Center: {x: 0, y: 0}
 --- !u!1 &2056232688
 GameObject:
   m_ObjectHideFlags: 0
@@ -8037,6 +9007,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2056232689}
   - 212: {fileID: 2056232690}
+  - 58: {fileID: 2056232692}
+  - 114: {fileID: 2056232691}
   m_Layer: 0
   m_Name: flower_xsmall_6
   m_TagString: Untagged
@@ -8078,6 +9050,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300028, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2056232691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2056232688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &2056232692
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2056232688}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .335000008
+  m_Center: {x: 0, y: 0}
 --- !u!1 &2066982436
 GameObject:
   m_ObjectHideFlags: 0
@@ -8119,6 +9113,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2143584803}
   - 212: {fileID: 2143584804}
+  - 58: {fileID: 2143584806}
+  - 114: {fileID: 2143584805}
   m_Layer: 0
   m_Name: flower_xxsmall_12
   m_TagString: Untagged
@@ -8160,6 +9156,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300024, guid: 46c0f9d9301e8fc4e868b9abeb54a7b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2143584805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2143584802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3aac42a5029b3459b8691ea5129bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &2143584806
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2143584802}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .245000005
+  m_Center: {x: 0, y: 0}
 --- !u!1 &2145508233
 GameObject:
   m_ObjectHideFlags: 0
