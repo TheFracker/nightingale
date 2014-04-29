@@ -76,91 +76,91 @@ Transition:
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
---- !u!1101 &110132871
+--- !u!1101 &110104529
 Transition:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110288841}
+  m_SrcState: {fileID: 110229667}
   m_DstState: {fileID: 110200000}
-  m_TransitionDuration: 1
+  m_TransitionDuration: .789473712
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 2
     m_ConditionEvent: playAnim
     m_EventTreshold: 0
-    m_ExitTime: 0
+    m_ExitTime: .210526288
   - m_ConditionMode: 2
     m_ConditionEvent: wasPushed
     m_EventTreshold: 0
-    m_ExitTime: 0
+    m_ExitTime: .210526288
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
---- !u!1101 &110160419
-Transition:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_SrcState: {fileID: 110288841}
-  m_DstState: {fileID: 110277431}
-  m_TransitionDuration: 1
-  m_TransitionOffset: 0
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: playAnim
-    m_EventTreshold: 0
-    m_ExitTime: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: wasPushed
-    m_EventTreshold: 0
-    m_ExitTime: 0
-  m_Atomic: 1
-  m_Solo: 0
-  m_Mute: 0
---- !u!1101 &110163999
+--- !u!1101 &110171055
 Transition:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_SrcState: {fileID: 110200000}
-  m_DstState: {fileID: 110288841}
+  m_DstState: {fileID: 110229667}
   m_TransitionDuration: .25
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: playAnim
-    m_EventTreshold: 0
-    m_ExitTime: .75
   - m_ConditionMode: 1
     m_ConditionEvent: wasPushed
+    m_EventTreshold: 0
+    m_ExitTime: .75
+  - m_ConditionMode: 2
+    m_ConditionEvent: playAnim
     m_EventTreshold: 0
     m_ExitTime: .75
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
---- !u!1101 &110191919
+--- !u!1101 &110174846
+Transition:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_SrcState: {fileID: 110229667}
+  m_DstState: {fileID: 110277431}
+  m_TransitionDuration: .789473712
+  m_TransitionOffset: 0
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: playAnim
+    m_EventTreshold: 0
+    m_ExitTime: .210526288
+  - m_ConditionMode: 2
+    m_ConditionEvent: wasPushed
+    m_EventTreshold: 0
+    m_ExitTime: .210526288
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
+--- !u!1101 &110176527
 Transition:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
   m_SrcState: {fileID: 110277431}
-  m_DstState: {fileID: 110288841}
-  m_TransitionDuration: 1
+  m_DstState: {fileID: 110229667}
+  m_TransitionDuration: .25
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: playAnim
     m_EventTreshold: 0
-    m_ExitTime: 0
+    m_ExitTime: .75
   - m_ConditionMode: 1
     m_ConditionEvent: wasPushed
     m_EventTreshold: 0
-    m_ExitTime: 0
+    m_ExitTime: .75
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -175,7 +175,22 @@ State:
   m_Motions:
   - {fileID: 7400000, guid: 0d86ba7479a642446b00ff3977d8e462, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: -72, y: 48, z: 0}
+  m_Position: {x: -348, y: 24, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
+--- !u!1102 &110229667
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Nightingale_Anim
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: b1531c06ad6f1b84ca1faa790e550068, type: 2}
+  m_ParentStateMachine: {fileID: 110700000}
+  m_Position: {x: -204, y: -108, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -190,22 +205,7 @@ State:
   m_Motions:
   - {fileID: 7400000, guid: 6143d8c3aad20cc42bf47a051942c308, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: -240, y: -96, z: 0}
-  m_IKOnFeet: 0
-  m_Mirror: 0
-  m_Tag: 
---- !u!1102 &110288841
-State:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Nightingale_Pushed 0
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Motions:
-  - {fileID: 7400000, guid: 6143d8c3aad20cc42bf47a051942c308, type: 2}
-  m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 84, y: -96, z: 0}
+  m_Position: {x: -492, y: -108, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -220,25 +220,28 @@ StateMachine:
   m_States:
   - {fileID: 110200000}
   - {fileID: 110277431}
-  - {fileID: 110288841}
+  - {fileID: 110229667}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110288841}
+      first: {fileID: 110229667}
       second:
-      - {fileID: 110160419}
-      - {fileID: 110132871}
-    data:
-      first: {fileID: 110277431}
-      second:
-      - {fileID: 110191919}
-      - {fileID: 110101034}
+      - {fileID: 110104529}
+      - {fileID: 110174846}
     data:
       first: {fileID: 110200000}
       second:
       - {fileID: 110100000}
-      - {fileID: 110163999}
+      - {fileID: 110171055}
+    data:
+      first: {fileID: 110277431}
+      second:
+      - {fileID: 110101034}
+      - {fileID: 110176527}
+    data:
+      first: {fileID: 0}
+      second: []
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: -780, y: 0, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
