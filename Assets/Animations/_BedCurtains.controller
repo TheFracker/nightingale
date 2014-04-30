@@ -8,7 +8,7 @@ AnimatorController:
   m_Name: _BedCurtains
   serializedVersion: 2
   m_AnimatorParameters:
-  - m_Name: wasClicked
+  - m_Name: wasPushed
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -44,7 +44,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: wasClicked
+    m_ConditionEvent: wasPushed
     m_EventTreshold: 0
     m_ExitTime: .75
   m_Atomic: 1
@@ -66,7 +66,7 @@ Transition:
     m_EventTreshold: 0
     m_ExitTime: .75
   - m_ConditionMode: 1
-    m_ConditionEvent: wasClicked
+    m_ConditionEvent: wasPushed
     m_EventTreshold: 0
     m_ExitTime: .75
   m_Atomic: 1
@@ -85,24 +85,6 @@ Transition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: playAnim
-    m_EventTreshold: 0
-    m_ExitTime: .75
-  m_Atomic: 1
-  m_Solo: 0
-  m_Mute: 0
---- !u!1101 &110137990
-Transition:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_SrcState: {fileID: 110200000}
-  m_DstState: {fileID: 110265005}
-  m_TransitionDuration: .25
-  m_TransitionOffset: 0
-  m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: wasClicked
     m_EventTreshold: 0
     m_ExitTime: .75
   m_Atomic: 1
@@ -187,6 +169,9 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
+      first: {fileID: 110200000}
+      second: []
+    data:
       first: {fileID: 110229575}
       second:
       - {fileID: 110198021}
@@ -196,10 +181,6 @@ StateMachine:
       second:
       - {fileID: 110100000}
       - {fileID: 110137950}
-    data:
-      first: {fileID: 110200000}
-      second:
-      - {fileID: 110137990}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: -780, y: 48, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

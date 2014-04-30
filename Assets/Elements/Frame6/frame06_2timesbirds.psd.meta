@@ -48,12 +48,12 @@ TextureImporter:
     - name: frame06_2timesbirds_0
       rect:
         serializedVersion: 2
-        x: 80
-        y: 74
-        width: 1292
-        height: 1398
+        x: 166
+        y: 203
+        width: 1128
+        height: 1184
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: frame06_2timesbirds_1
       rect:
         serializedVersion: 2
@@ -61,6 +61,15 @@ TextureImporter:
         y: 288
         width: 419
         height: 1223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: frame06_2timesbirds_2
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 918
+        width: 325
+        height: 606
       alignment: 0
       pivot: {x: .5, y: .5}
   spritePackingTag: 
