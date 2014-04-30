@@ -2232,6 +2232,7 @@ GameObject:
   - 212: {fileID: 882107505}
   - 114: {fileID: 882107504}
   - 58: {fileID: 882107503}
+  - 95: {fileID: 882107507}
   m_Layer: 0
   m_Name: ChangeSceneButtonUp
   m_TagString: Untagged
@@ -2298,6 +2299,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!95 &882107507
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 882107502}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &900855603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2428,7 +2443,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 958863881}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.36655402, y: -3.25914383, z: 0}
+  m_LocalPosition: {x: -1.36655426, y: -3.25914383, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9806202}
@@ -5161,6 +5176,7 @@ GameObject:
   - 58: {fileID: 2033678892}
   - 82: {fileID: 2033678891}
   - 114: {fileID: 2033678894}
+  - 95: {fileID: 2033678895}
   m_Layer: 0
   m_Name: goldcage
   m_TagString: Untagged
@@ -5293,6 +5309,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31ca8e95c8b0ebb41b280222275e81f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2033678895
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2033678888}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e74f4f6ce430f374a913d51db6dde2db, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &2039834375
 GameObject:
   m_ObjectHideFlags: 0
@@ -5354,6 +5384,7 @@ GameObject:
   - 212: {fileID: 2059680915}
   - 58: {fileID: 2059680914}
   - 114: {fileID: 2059680913}
+  - 95: {fileID: 2059680917}
   m_Layer: 0
   m_Name: ChangeSceneButtonDown
   m_TagString: Untagged
@@ -5420,6 +5451,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!95 &2059680917
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2059680912}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 185b1f8c343957a409d9517793482672, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &2059737766
 GameObject:
   m_ObjectHideFlags: 0
