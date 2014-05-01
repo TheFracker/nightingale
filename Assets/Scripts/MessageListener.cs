@@ -251,8 +251,6 @@ public class MessageListener : MessageBehaviour {
 			kaiser5Clicks += m.value;
 		else if (m.MessageValue == "waiter")
 			waiter5Clicks += m.value;
-		else if (m.MessageValue == "mechanic")
-			mechanicClicks += m.value;
 		else if (m.MessageValue == "vases")
 			vase5Clicks += m.value;
 		else if (m.MessageValue == "crowd")
@@ -279,9 +277,7 @@ public class MessageListener : MessageBehaviour {
 
 	public void HandleClickScene7Message(ClickMessage m)
 	{
-		if (m.MessageValue == "nightingale")
-			nightingale7Clicks += m.value;
-		else if (m.MessageValue == "kaiser")
+		if (m.MessageValue == "kaiser")
 			kaiser7Clicks += m.value;
 		else if (m.MessageValue == "waiter")
 			waiter7Clicks += m.value;
@@ -293,8 +289,6 @@ public class MessageListener : MessageBehaviour {
 			vase7Clicks += m.value;
 		else if (m.MessageValue == "curtains")
 			curtainsClicks += m.value;
-		else if (m.MessageValue == "lamps")
-			lamps7Clicks += m.value;
 	}
 
 	public void HandleClickScene8Message(ClickMessage m)
@@ -329,7 +323,7 @@ public class MessageListener : MessageBehaviour {
 
 	void OnApplicationPause() // Should be changed to OnApplicationPause() for tablet
 	{
-		string filePath = Application.persistentDataPath + "/results.txt";
+		string filePath = Application.persistentDataPath + "/NormalResults.txt";
 		string toPrint = createStringToPrint();
 		System.IO.File.AppendAllText (filePath, toPrint);
 	}
@@ -374,7 +368,6 @@ public class MessageListener : MessageBehaviour {
 			"Waiter: " + waiter5Clicks + nl +
 			"Nightingale: " + nightingale5Clicks + nl +
 			"Nightingale Robot: " + nightingaleRobot5Clicks + nl +
-			"Mechanic: " + mechanicClicks + nl +
 			"Vase: " + vase5Clicks + nl + 
 			"Crowd: " + crowd5Clicks + nl +
 			"Lamps: " + lamps5Clicks + nl +
@@ -388,12 +381,10 @@ public class MessageListener : MessageBehaviour {
 			"\n\n----------------- SCENE 7 -----------------\n\n" +
 			"Kaiser: " + kaiser7Clicks + nl +
 			"Waiter: " + waiter7Clicks + nl +
-			"Nightingale: " + nightingale7Clicks + nl +
 			"Nightingale Robot: " + nightingaleRobot7Clicks + nl +
 			"Crowd: " + crowd7Clicks + nl +
 			"Curtains: " + curtainsClicks + nl +
 			"Vases: " + vase7Clicks + nl +
-			"Lamps: " + lamps7Clicks + nl +
 			"\n\n----------------- SCENE 8 -----------------\n\n" +
 			"Kaiser: " + kaiser8Clicks + nl +
 			"Waiter: " + waiter8Clicks + nl +

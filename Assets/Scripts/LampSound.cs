@@ -6,8 +6,11 @@ public class LampSound : MonoBehaviour {
 	AudioSource turnOn;
 	AudioSource turnOff;
 	bool isOn;
+	Animator anim;
 	
 	void Start () {
+		anim = gameObject.GetComponent<Animator> ();
+
 		isOn = true;
 
 		turnOn = gameObject.AddComponent ("AudioSource") as AudioSource;
@@ -27,12 +30,14 @@ public class LampSound : MonoBehaviour {
 			turnOn.Stop();
 			turnOff.Play();
 			isOn = false;
+			anim.SetBool("isOn", false);
 		}
 		else
 		{
 			turnOff.Stop();
 			turnOn.Play ();
 			isOn = true;
+			anim.SetBool("isOn", true);
 		}
 	}
 }
