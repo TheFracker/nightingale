@@ -17,10 +17,10 @@ public class ServantSounds9 : MonoBehaviour {
 		servant3 = gameObject.AddComponent ("AudioSource") as AudioSource;
 		servant4 = gameObject.AddComponent ("AudioSource") as AudioSource;
 		
-		AudioClip ac1 = Resources.Load("Non-Iconic/Nightingale1") as AudioClip;
-		AudioClip ac2 = Resources.Load("Non-Iconic/Nightingale2") as AudioClip;
-		AudioClip ac3 = Resources.Load("Non-Iconic/Nightingale3") as AudioClip;
-		AudioClip ac4 = Resources.Load("Non-Iconic/Nightingale4") as AudioClip;
+		AudioClip ac1 = Resources.Load("Non-Iconic/Scene9/servants-01") as AudioClip;
+		AudioClip ac2 = Resources.Load("Non-Iconic/Scene9/servants-02") as AudioClip;
+		AudioClip ac3 = Resources.Load("Non-Iconic/Scene9/servants-03") as AudioClip;
+		AudioClip ac4 = Resources.Load("Non-Iconic/Scene9/servants-04") as AudioClip;
 		
 		servant1.clip = ac1;
 		servant2.clip = ac2;

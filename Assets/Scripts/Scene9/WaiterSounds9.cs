@@ -6,7 +6,7 @@ public class WaiterSounds9 : MonoBehaviour {
 	AudioSource waiter1;
 	AudioSource waiter2;
 	AudioSource waiter3;
-	AudioSource[] waiterSounds = new AudioSource[4];
+	AudioSource[] waiterSounds = new AudioSource[3];
 	int lastWaiterSound = 0;
 	
 	void Start () 
@@ -15,9 +15,9 @@ public class WaiterSounds9 : MonoBehaviour {
 		waiter2 = gameObject.AddComponent ("AudioSource") as AudioSource;
 		waiter3 = gameObject.AddComponent ("AudioSource") as AudioSource;
 		
-		AudioClip ac1 = Resources.Load("Non-Iconic/Nightingale1") as AudioClip;
-		AudioClip ac2 = Resources.Load("Non-Iconic/Nightingale2") as AudioClip;
-		AudioClip ac3 = Resources.Load("Non-Iconic/Nightingale3") as AudioClip;
+		AudioClip ac1 = Resources.Load("Non-Iconic/Scene9/long servent-01") as AudioClip;
+		AudioClip ac2 = Resources.Load("Non-Iconic/Scene9/long servent-02") as AudioClip;
+		AudioClip ac3 = Resources.Load("Non-Iconic/Scene9/long servent-03") as AudioClip;
 		
 		waiter1.clip = ac1;
 		waiter2.clip = ac2;
@@ -31,7 +31,7 @@ public class WaiterSounds9 : MonoBehaviour {
 	void OnMouseUpAsButton()
 	{
 		waiterSounds [lastWaiterSound].Stop ();
-		int waiter = Random.Range (0, 4);
+		int waiter = Random.Range (0, 3);
 		waiterSounds [waiter].Play ();
 		lastWaiterSound = waiter;
 	}
