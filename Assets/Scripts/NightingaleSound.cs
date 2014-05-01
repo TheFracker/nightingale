@@ -25,7 +25,7 @@ public class NightingaleSound : MonoBehaviour {
 		tweet1.clip = ac1;
 		tweet2.clip = ac2;
 		tweet3.clip = ac3;
-		tweet3.clip = ac4;
+		tweet4.clip = ac4;
 
 		tweets [0] = tweet1;
 		tweets [1] = tweet2;
