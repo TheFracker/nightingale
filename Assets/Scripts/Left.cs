@@ -36,6 +36,7 @@ public class Left : MonoBehaviour {
 	{
 		anim.SetBool ("wasPushed", true);
 		pushedToSide = true;
+		audio.Play ();
 	}
 	
 	void OnMouseUp()
