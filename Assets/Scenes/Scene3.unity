@@ -602,6 +602,7 @@ GameObject:
   - 114: {fileID: 173741900}
   - 114: {fileID: 173741899}
   - 58: {fileID: 173741898}
+  - 114: {fileID: 173741902}
   m_Layer: 0
   m_Name: Lamps_big
   m_TagString: Untagged
@@ -673,6 +674,17 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!114 &173741902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 173741896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f535f8e821dbe419ebdaadeaf27b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &276087187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1986,6 +1998,7 @@ GameObject:
   - 114: {fileID: 715372537}
   - 114: {fileID: 715372536}
   - 58: {fileID: 715372535}
+  - 114: {fileID: 715372539}
   m_Layer: 0
   m_Name: Lamps_big
   m_TagString: Untagged
@@ -2057,6 +2070,17 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!114 &715372539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 715372533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f535f8e821dbe419ebdaadeaf27b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &727424581
 GameObject:
   m_ObjectHideFlags: 0
@@ -3167,6 +3191,7 @@ GameObject:
   - 114: {fileID: 1140942288}
   - 114: {fileID: 1140942287}
   - 58: {fileID: 1140942286}
+  - 114: {fileID: 1140942290}
   m_Layer: 0
   m_Name: Lamps_big
   m_TagString: Untagged
@@ -3238,6 +3263,17 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!114 &1140942290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1140942284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f535f8e821dbe419ebdaadeaf27b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1153686460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3400,6 +3436,7 @@ GameObject:
   - 114: {fileID: 1159308259}
   - 114: {fileID: 1159308258}
   - 58: {fileID: 1159308257}
+  - 114: {fileID: 1159308261}
   m_Layer: 0
   m_Name: Lamps_big
   m_TagString: Untagged
@@ -3471,6 +3508,17 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!114 &1159308261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1159308255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f535f8e821dbe419ebdaadeaf27b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1231666596
 GameObject:
   m_ObjectHideFlags: 0
@@ -4145,6 +4193,7 @@ GameObject:
   - 114: {fileID: 1538691799}
   - 114: {fileID: 1538691798}
   - 58: {fileID: 1538691797}
+  - 114: {fileID: 1538691801}
   m_Layer: 0
   m_Name: Lamps_big
   m_TagString: Untagged
@@ -4216,6 +4265,17 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!114 &1538691801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1538691795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f535f8e821dbe419ebdaadeaf27b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1539625282
 GameObject:
   m_ObjectHideFlags: 0
