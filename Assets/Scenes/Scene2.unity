@@ -436,6 +436,7 @@ GameObject:
   - 114: {fileID: 252249378}
   - 95: {fileID: 252249379}
   - 114: {fileID: 252249380}
+  - 114: {fileID: 252249381}
   m_Layer: 0
   m_Name: Servants
   m_TagString: Untagged
@@ -504,6 +505,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2976706a4c986c94197f727f284e3e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &252249381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 252249375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a333288ceaa8ecb40a713c4832916e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &254490636
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,12 +524,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 254490637}
-  - 82: {fileID: 254490640}
   - 114: {fileID: 254490639}
   - 61: {fileID: 254490638}
   - 114: {fileID: 254490641}
   - 95: {fileID: 254490642}
   - 114: {fileID: 254490643}
+  - 114: {fileID: 254490640}
   m_Layer: 0
   m_Name: Picture_flowers
   m_TagString: Untagged
@@ -560,64 +572,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6367fced96ef04a60b98d2235c699e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &254490640
-AudioSource:
+--- !u!114 &254490640
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 254490636}
   m_Enabled: 1
-  serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 9df9f3bece057db428e379eb3471d3f4, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88a63e489d7e284e9ed68a27e2e85c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &254490641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,6 +731,7 @@ GameObject:
   - 114: {fileID: 308815432}
   - 95: {fileID: 308815434}
   - 114: {fileID: 308815435}
+  - 114: {fileID: 308815436}
   m_Layer: 0
   m_Name: Waiter
   m_TagString: Untagged
@@ -843,6 +809,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2976706a4c986c94197f727f284e3e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &308815436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 308815430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f64ce2092d36c4babffaa1f6b273ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &329672313
@@ -1190,6 +1167,7 @@ GameObject:
   - 114: {fileID: 512193768}
   - 95: {fileID: 512193770}
   - 114: {fileID: 512193771}
+  - 114: {fileID: 512193772}
   m_Layer: 0
   m_Name: Lamp2
   m_TagString: Untagged
@@ -1276,6 +1254,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2976706a4c986c94197f727f284e3e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &512193772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 512193765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f535f8e821dbe419ebdaadeaf27b01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &531175160
@@ -1898,6 +1887,7 @@ GameObject:
   - 114: {fileID: 842687793}
   - 95: {fileID: 842687795}
   - 114: {fileID: 842687796}
+  - 114: {fileID: 842687797}
   m_Layer: 0
   m_Name: kaiser
   m_TagString: Untagged
@@ -1975,6 +1965,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2976706a4c986c94197f727f284e3e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &842687797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 842687791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d89e8cf5e60ea10409a93420598aa17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &944620411
@@ -2639,12 +2640,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1242880790}
-  - 82: {fileID: 1242880793}
   - 114: {fileID: 1242880792}
   - 61: {fileID: 1242880791}
   - 114: {fileID: 1242880794}
   - 95: {fileID: 1242880795}
   - 114: {fileID: 1242880796}
+  - 114: {fileID: 1242880793}
   m_Layer: 0
   m_Name: Picture_small
   m_TagString: Untagged
@@ -2687,64 +2688,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6367fced96ef04a60b98d2235c699e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &1242880793
-AudioSource:
+--- !u!114 &1242880793
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1242880789}
   m_Enabled: 1
-  serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 651384cff27ec9d49b0d12ad7d640ce2, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88a63e489d7e284e9ed68a27e2e85c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1242880794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2839,12 +2793,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1294170144}
-  - 82: {fileID: 1294170147}
   - 114: {fileID: 1294170146}
   - 61: {fileID: 1294170145}
   - 114: {fileID: 1294170148}
   - 95: {fileID: 1294170149}
   - 114: {fileID: 1294170150}
+  - 114: {fileID: 1294170147}
   m_Layer: 0
   m_Name: Picture_green
   m_TagString: Untagged
@@ -2887,64 +2841,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6367fced96ef04a60b98d2235c699e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &1294170147
-AudioSource:
+--- !u!114 &1294170147
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294170143}
   m_Enabled: 1
-  serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 9df9f3bece057db428e379eb3471d3f4, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88a63e489d7e284e9ed68a27e2e85c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1294170148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4498,6 +4405,7 @@ GameObject:
   - 114: {fileID: 2120144140}
   - 95: {fileID: 2120144142}
   - 114: {fileID: 2120144143}
+  - 114: {fileID: 2120144144}
   m_Layer: 0
   m_Name: Wase
   m_TagString: Untagged
@@ -4586,6 +4494,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2976706a4c986c94197f727f284e3e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2120144144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120144137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5caf864837f8414cb6d9d558ff889d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2144030776

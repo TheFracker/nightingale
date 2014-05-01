@@ -36,7 +36,7 @@ public class NightingaleSound : MonoBehaviour {
 	void OnMouseUpAsButton()
 	{
 		tweets [lastTweet].Stop ();
-		int tweet = Random.Range (0, 3);
+		int tweet = Random.Range (0, 4);
 		tweets [tweet].Play ();
 		lastTweet = tweet;
 	}
