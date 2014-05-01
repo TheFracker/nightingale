@@ -40,7 +40,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: m_IsActive
-    path: LampOn
+    path: lampOn
     classID: 1
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -92,7 +92,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
     attribute: m_IsActive
-    path: LampOn
+    path: lampOn
     classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []
