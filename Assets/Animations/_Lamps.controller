@@ -69,6 +69,10 @@ Transition:
     m_ConditionEvent: isOn
     m_EventTreshold: 0
     m_ExitTime: .75
+  - m_ConditionMode: 2
+    m_ConditionEvent: playAnim
+    m_EventTreshold: 0
+    m_ExitTime: .75
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -87,7 +91,7 @@ Transition:
     m_ConditionEvent: isOn
     m_EventTreshold: 0
     m_ExitTime: .210526288
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: playAnim
     m_EventTreshold: 0
     m_ExitTime: .210526288
@@ -105,12 +109,12 @@ Transition:
   m_TransitionDuration: .25
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: playAnim
-    m_EventTreshold: 0
-    m_ExitTime: .75
   - m_ConditionMode: 2
     m_ConditionEvent: isOn
+    m_EventTreshold: 0
+    m_ExitTime: .75
+  - m_ConditionMode: 1
+    m_ConditionEvent: playAnim
     m_EventTreshold: 0
     m_ExitTime: .75
   m_Atomic: 1
@@ -129,6 +133,10 @@ Transition:
   m_Conditions:
   - m_ConditionMode: 2
     m_ConditionEvent: isOn
+    m_EventTreshold: 0
+    m_ExitTime: .75
+  - m_ConditionMode: 2
+    m_ConditionEvent: playAnim
     m_EventTreshold: 0
     m_ExitTime: .75
   m_Atomic: 1
@@ -217,38 +225,23 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
+      first: {fileID: 0}
+      second: []
+    data:
       first: {fileID: 110266147}
       second:
       - {fileID: 110100000}
       - {fileID: 110175875}
-    data:
-      first: {fileID: 110200000}
-      second:
-      - {fileID: 110107497}
-      - {fileID: 110165544}
-    data:
-      first: {fileID: 0}
-      second: []
     data:
       first: {fileID: 110240835}
       second:
       - {fileID: 110194221}
       - {fileID: 110148522}
     data:
-      first: {fileID: 0}
-      second: []
-    data:
-      first: {fileID: 0}
-      second: []
-    data:
-      first: {fileID: 0}
-      second: []
-    data:
-      first: {fileID: 0}
-      second: []
-    data:
-      first: {fileID: 0}
-      second: []
+      first: {fileID: 110200000}
+      second:
+      - {fileID: 110107497}
+      - {fileID: 110165544}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: -696, y: 36, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
