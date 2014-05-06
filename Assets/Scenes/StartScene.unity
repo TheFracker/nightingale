@@ -411,6 +411,8 @@ GameObject:
   - 212: {fileID: 1323528261}
   - 114: {fileID: 1323528260}
   - 58: {fileID: 1323528259}
+  - 95: {fileID: 1323528264}
+  - 114: {fileID: 1323528263}
   m_Layer: 0
   m_Name: ChangeSceneButtonUp
   m_TagString: Untagged
@@ -477,6 +479,33 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1323528263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f6d88f7de32fa0a4eabf3d80443eec17,
+    type: 2}
+  m_PrefabInternal: {fileID: 950009870}
+  m_GameObject: {fileID: 1323528258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4444fa0e600aa84eb36cd8b73208dd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1323528264
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: f6d88f7de32fa0a4eabf3d80443eec17,
+    type: 2}
+  m_PrefabInternal: {fileID: 950009870}
+  m_GameObject: {fileID: 1323528258}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 185b1f8c343957a409d9517793482672, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 1
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &1334794327
 GameObject:
   m_ObjectHideFlags: 0

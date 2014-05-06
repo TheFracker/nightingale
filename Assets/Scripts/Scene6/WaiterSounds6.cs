@@ -17,6 +17,12 @@ public class WaiterSounds6 : MonoBehaviour {
 		
 		waiter1.clip = ac1;
 		waiter2.clip = ac2;
+
+		waiter1.rolloffMode = AudioRolloffMode.Linear;
+		waiter2.rolloffMode = AudioRolloffMode.Linear;
+
+		waiter1.volume = 0.35f;
+		waiter2.volume = 0.35f;
 		
 		waiterSounds [0] = waiter1;
 		waiterSounds [1] = waiter2;

@@ -22,7 +22,15 @@ public class VaseSounds : MonoBehaviour {
 		vase1.clip = ac1;
 		vase2.clip = ac2;
 		vase3.clip = ac3;
-		
+
+		vase1.rolloffMode = AudioRolloffMode.Linear;
+		vase2.rolloffMode = AudioRolloffMode.Linear;
+		vase3.rolloffMode = AudioRolloffMode.Linear;
+
+		vase1.volume = 0.7f;
+		vase2.volume = 0.7f;
+		vase3.volume = 0.7f;
+
 		vases [0] = vase1;
 		vases [1] = vase2;
 		vases [2] = vase3;
