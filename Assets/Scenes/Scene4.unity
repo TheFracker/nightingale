@@ -1197,7 +1197,8 @@ GameObject:
   - 212: {fileID: 1219714131}
   - 114: {fileID: 1219714130}
   - 58: {fileID: 1219714129}
-  - 95: {fileID: 1219714133}
+  - 95: {fileID: 1219714134}
+  - 114: {fileID: 1219714133}
   m_Layer: 0
   m_Name: ChangeSceneButtonUp
   m_TagString: Untagged
@@ -1264,12 +1265,25 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!95 &1219714133
+--- !u!114 &1219714133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f6d88f7de32fa0a4eabf3d80443eec17,
+    type: 2}
+  m_PrefabInternal: {fileID: 559367566}
+  m_GameObject: {fileID: 1219714128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4444fa0e600aa84eb36cd8b73208dd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1219714134
 Animator:
   serializedVersion: 2
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 9500000, guid: f6d88f7de32fa0a4eabf3d80443eec17,
+    type: 2}
+  m_PrefabInternal: {fileID: 559367566}
   m_GameObject: {fileID: 1219714128}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
@@ -1664,7 +1678,8 @@ GameObject:
   - 212: {fileID: 1584535076}
   - 58: {fileID: 1584535075}
   - 114: {fileID: 1584535074}
-  - 95: {fileID: 1584535078}
+  - 95: {fileID: 1584535079}
+  - 114: {fileID: 1584535078}
   m_Layer: 0
   m_Name: ChangeSceneButtonDown
   m_TagString: Untagged
@@ -1731,12 +1746,25 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!95 &1584535078
+--- !u!114 &1584535078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f400bdeb6b585a14b9d3d0893031dc3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1676442322}
+  m_GameObject: {fileID: 1584535073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4444fa0e600aa84eb36cd8b73208dd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1584535079
 Animator:
   serializedVersion: 2
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 9500000, guid: f400bdeb6b585a14b9d3d0893031dc3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1676442322}
   m_GameObject: {fileID: 1584535073}
   m_Enabled: 1
   m_Avatar: {fileID: 0}

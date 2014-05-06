@@ -22,6 +22,10 @@ public class FrogSounds : MonoBehaviour {
 		ribbit1.clip = ac1;
 		ribbit2.clip = ac2;
 		ribbit3.clip = ac3;
+
+		ribbit1.rolloffMode = AudioRolloffMode.Linear;
+		ribbit2.rolloffMode = AudioRolloffMode.Linear;
+		ribbit3.rolloffMode = AudioRolloffMode.Linear;
 		
 		ribbits [0] = ribbit1;
 		ribbits [1] = ribbit2;

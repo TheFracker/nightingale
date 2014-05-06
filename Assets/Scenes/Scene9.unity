@@ -3023,7 +3023,8 @@ GameObject:
   - 212: {fileID: 1380155127}
   - 58: {fileID: 1380155126}
   - 114: {fileID: 1380155125}
-  - 95: {fileID: 1380155129}
+  - 95: {fileID: 1380155130}
+  - 114: {fileID: 1380155129}
   m_Layer: 0
   m_Name: ChangeSceneButtonDown
   m_TagString: Untagged
@@ -3090,12 +3091,25 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!95 &1380155129
+--- !u!114 &1380155129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f400bdeb6b585a14b9d3d0893031dc3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 358123410}
+  m_GameObject: {fileID: 1380155124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4444fa0e600aa84eb36cd8b73208dd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1380155130
 Animator:
   serializedVersion: 2
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 9500000, guid: f400bdeb6b585a14b9d3d0893031dc3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 358123410}
   m_GameObject: {fileID: 1380155124}
   m_Enabled: 1
   m_Avatar: {fileID: 0}

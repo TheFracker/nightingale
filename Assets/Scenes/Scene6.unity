@@ -2496,6 +2496,7 @@ GameObject:
   - 95: {fileID: 1354737319}
   - 114: {fileID: 1354737321}
   - 82: {fileID: 1354737320}
+  - 114: {fileID: 1354737322}
   m_Layer: 0
   m_Name: nightingale_robot_broken
   m_TagString: Untagged
@@ -2599,14 +2600,14 @@ AudioSource:
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - time: 0
+    - time: .00200000009
       value: 1
       inSlope: 0
-      outSlope: 0
+      outSlope: -1.00200403
       tangentMode: 0
     - time: 1
-      value: 0
-      inSlope: 0
+      value: .0108695636
+      inSlope: -1.00200403
       outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
@@ -2640,6 +2641,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6367fced96ef04a60b98d2235c699e99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1354737322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1354737314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2976706a4c986c94197f727f284e3e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1365834039
@@ -2754,7 +2766,8 @@ GameObject:
   - 212: {fileID: 1464750784}
   - 114: {fileID: 1464750783}
   - 58: {fileID: 1464750782}
-  - 95: {fileID: 1464750786}
+  - 95: {fileID: 1464750787}
+  - 114: {fileID: 1464750786}
   m_Layer: 0
   m_Name: ChangeSceneButtonUp
   m_TagString: Untagged
@@ -2821,12 +2834,25 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!95 &1464750786
+--- !u!114 &1464750786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f6d88f7de32fa0a4eabf3d80443eec17,
+    type: 2}
+  m_PrefabInternal: {fileID: 396247650}
+  m_GameObject: {fileID: 1464750781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4444fa0e600aa84eb36cd8b73208dd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1464750787
 Animator:
   serializedVersion: 2
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 9500000, guid: f6d88f7de32fa0a4eabf3d80443eec17,
+    type: 2}
+  m_PrefabInternal: {fileID: 396247650}
   m_GameObject: {fileID: 1464750781}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
@@ -2946,7 +2972,8 @@ GameObject:
   - 212: {fileID: 1575614853}
   - 58: {fileID: 1575614852}
   - 114: {fileID: 1575614851}
-  - 95: {fileID: 1575614855}
+  - 95: {fileID: 1575614856}
+  - 114: {fileID: 1575614855}
   m_Layer: 0
   m_Name: ChangeSceneButtonDown
   m_TagString: Untagged
@@ -3013,12 +3040,25 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!95 &1575614855
+--- !u!114 &1575614855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f400bdeb6b585a14b9d3d0893031dc3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 785833851}
+  m_GameObject: {fileID: 1575614850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4444fa0e600aa84eb36cd8b73208dd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1575614856
 Animator:
   serializedVersion: 2
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 9500000, guid: f400bdeb6b585a14b9d3d0893031dc3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 785833851}
   m_GameObject: {fileID: 1575614850}
   m_Enabled: 1
   m_Avatar: {fileID: 0}

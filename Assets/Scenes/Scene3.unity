@@ -240,7 +240,8 @@ GameObject:
   - 212: {fileID: 87684339}
   - 114: {fileID: 87684338}
   - 58: {fileID: 87684337}
-  - 95: {fileID: 87684341}
+  - 95: {fileID: 87684342}
+  - 114: {fileID: 87684341}
   m_Layer: 0
   m_Name: ChangeSceneButtonUp
   m_TagString: Untagged
@@ -307,12 +308,25 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!95 &87684341
+--- !u!114 &87684341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f6d88f7de32fa0a4eabf3d80443eec17,
+    type: 2}
+  m_PrefabInternal: {fileID: 856917797}
+  m_GameObject: {fileID: 87684336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4444fa0e600aa84eb36cd8b73208dd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &87684342
 Animator:
   serializedVersion: 2
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 9500000, guid: f6d88f7de32fa0a4eabf3d80443eec17,
+    type: 2}
+  m_PrefabInternal: {fileID: 856917797}
   m_GameObject: {fileID: 87684336}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
@@ -2686,7 +2700,8 @@ GameObject:
   - 212: {fileID: 928602449}
   - 58: {fileID: 928602448}
   - 114: {fileID: 928602447}
-  - 95: {fileID: 928602451}
+  - 95: {fileID: 928602452}
+  - 114: {fileID: 928602451}
   m_Layer: 0
   m_Name: ChangeSceneButtonDown
   m_TagString: Untagged
@@ -2753,12 +2768,25 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!95 &928602451
+--- !u!114 &928602451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f400bdeb6b585a14b9d3d0893031dc3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 164964491}
+  m_GameObject: {fileID: 928602446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4444fa0e600aa84eb36cd8b73208dd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &928602452
 Animator:
   serializedVersion: 2
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 9500000, guid: f400bdeb6b585a14b9d3d0893031dc3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 164964491}
   m_GameObject: {fileID: 928602446}
   m_Enabled: 1
   m_Avatar: {fileID: 0}

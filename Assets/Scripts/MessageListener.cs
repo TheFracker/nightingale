@@ -3,6 +3,8 @@ using System.Collections;
 
 public class MessageListener : MessageBehaviour {
 
+	string nameOfChild;
+
 	// Scene1
 	int butterflyClicks;
 	int frogClicks;
@@ -82,6 +84,8 @@ public class MessageListener : MessageBehaviour {
 
 
 	protected override void OnStart () {
+		nameOfChild = "test";
+
 		// Scene1
 		butterflyClicks = 0;
 		frogClicks = 0;
@@ -168,11 +172,16 @@ public class MessageListener : MessageBehaviour {
 		Messenger.RegisterListener(new Listener("Scene7ClickMessage", gameObject, "HandleClickScene7Message"));
 		Messenger.RegisterListener(new Listener("Scene8ClickMessage", gameObject, "HandleClickScene8Message"));
 		Messenger.RegisterListener(new Listener("Scene9ClickMessage", gameObject, "HandleClickScene9Message"));
+		Messenger.RegisterListener(new Listener("GetName", gameObject, "HandleGetNameMessage"));
 
 		
 	}
-	
-	// handler for NewPlayer messages
+
+	public void HandleGetNameMessage(Message m)
+	{
+		nameOfChild = m.MessageValue;
+	}
+
 	public void HandleClickScene1Message(ClickMessage m)
 	{
 		if(m.MessageValue == "butterfly")
@@ -321,7 +330,7 @@ public class MessageListener : MessageBehaviour {
 			lamps9Clicks += m.value;
 	}
 
-	void OnApplicationPause() // Should be changed to OnApplicationPause() for tablet
+	void OnApplicationPause() // Should be changed to OnApplicationPause() for tablet else Quit for pc
 	{
 		string filePath = Application.persistentDataPath + "/NormalResults.txt";
 		string toPrint = createStringToPrint();
@@ -330,10 +339,11 @@ public class MessageListener : MessageBehaviour {
 
 	string createStringToPrint()
 	{
+		string name = this.nameOfChild;
 		string start = "\n\n------------------ START ------------------\n\n";
 		string end = "\n\n------------------- END -------------------\n\n";
 		char nl = '\n';
-		string total = start + "\n\n----------------- SCENE 1 -----------------\n\n" +
+		string total = start + "Name of child: " + name + "\n\n----------------- SCENE 1 -----------------\n\n" +
 			"Kaiser: " + kaiser1Clicks + nl +
 			"Waiter: " + waiter1Clicks + nl +
 			"Nightingale: " + nightingale1Clicks + nl +
