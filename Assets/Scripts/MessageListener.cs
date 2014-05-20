@@ -44,7 +44,6 @@ public class MessageListener : MessageBehaviour {
 	int nightingaleRobot5Clicks;
 	int waiter5Clicks;
 	int kaiser5Clicks;
-	int mechanicClicks;
 	int vase5Clicks;
 	int crowd5Clicks;
 	int lamps5Clicks;
@@ -60,12 +59,10 @@ public class MessageListener : MessageBehaviour {
 	// Scene7
 	int kaiser7Clicks;
 	int waiter7Clicks;
-	int nightingale7Clicks;
 	int nightingaleRobot7Clicks;
 	int crowd7Clicks;
 	int curtainsClicks;
 	int vase7Clicks;
-	int lamps7Clicks;
 
 	// Scene8
 	int nightingale8Clicks;
@@ -125,7 +122,6 @@ public class MessageListener : MessageBehaviour {
 		nightingaleRobot5Clicks = 0;
 		waiter5Clicks = 0;
 		kaiser5Clicks = 0;
-		mechanicClicks = 0;
 		vase5Clicks = 0;
 		crowd5Clicks = 0;
 		lamps5Clicks = 0;
@@ -141,12 +137,10 @@ public class MessageListener : MessageBehaviour {
 		// Scene7
 		kaiser7Clicks = 0;
 		waiter7Clicks = 0;
-		nightingale7Clicks = 0;
 		nightingaleRobot7Clicks = 0;
 		crowd7Clicks = 0;
 		curtainsClicks = 0;
 		vase7Clicks = 0;
-		lamps7Clicks = 0;
 
 		// Scene8
 		nightingale8Clicks = 0;

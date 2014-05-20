@@ -7,8 +7,7 @@ public class Anim : MonoBehaviour {
 	float animTime;
 	float minTime;
 	float maxTime;
-
-	// Use this for initialization
+	
 	void Start () {
 		// Acces to the animator
 		anim = this.gameObject.GetComponent<Animator> ();
@@ -18,8 +17,7 @@ public class Anim : MonoBehaviour {
 		maxTime = 20;
 		animTime = Time.time + Random.Range (minTime, maxTime);
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		if(animTime < Time.time)
 		{
